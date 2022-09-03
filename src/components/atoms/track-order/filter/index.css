@@ -1,0 +1,31 @@
+.wrp-ftl{
+    display:flex;
+    gap:20px;
+    align-items:center
+}
+.ttl-trck-ftl{
+    font-size:20px;
+}
+.srch-trck-ftl{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 0.5px solid gray;
+    width: 8rem;
+    outline:none
+}
+
+.wrp-date-ftl{
+    display:flex;
+}
+#date, #courier{
+    outline: none;
+    border: 0.5px solid gray;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    border-radius: 15px;
+}
+#date:focus, .srch-trck-ftl:focus{
+    border: 3px solid #3b95e3;
+}

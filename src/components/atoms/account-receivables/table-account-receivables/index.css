@@ -1,0 +1,12 @@
+table{
+    border-collapse: collapse;
+    margin-top:50px;
+}
+.tbl-lst-ord td{
+    border: 0;
+    padding: 10px;
+    font-size: 15px;
+}
+.tbl-lst-ord:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.356);
+}

@@ -1,0 +1,22 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  padding:0;
+  margin:0;
+}
+ul{
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+a, .link{
+  text-decoration: none;
+  color:rgb(17, 17, 51)
+}
+h1,h2,h3,h4,h5,h6,p{
+  color:rgb(17, 17, 51)
+}
+

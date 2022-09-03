@@ -1,0 +1,118 @@
+.ctn-cont-trck{
+    margin-top:40px;
+}
+
+.ctn-lst-trck-ord{
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 30%);
+    border-radius: 20px;
+    margin-top:50px
+}
+/* Menu */
+.ctn-mnu-lst{
+    display:flex;
+    gap: 20px;
+}
+
+.mnu-txt-excp-trck{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 20px;
+}
+.mnu-txt-excp-trck:hover{
+    background-color: #3b95e3;
+    cursor:pointer;
+    color:white;
+    transition: 0.6s ease-in-out;
+}
+
+/* Order Tracking */
+.lst-o-trck-ord-inf{
+    display:flex;
+    gap:15px;
+    align-items:center;
+    justify-content: space-between;
+}
+.lst-o-txt-dte{
+    color:#3b95e3
+}
+
+.lst-t-trck-ord{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:50px;
+    margin-top:30px
+}
+
+/* Icon Status */
+.lst-t-trck-sts-icn{
+    display:flex;
+    gap:20px;
+}
+.icn-sts, .lgo-gjk{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.lst-t-trck-vd{
+    margin-top: 50px;
+    color: #3b95e3;
+    width: max-content;
+    display: inline-block;
+}
+.lst-t-trck-ord-sts {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Order */
+.lst-t-trck-imp, .lst-t-trck-jsa{
+    color:#3b95e3
+}
+.lst-t-trck-jsa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lst-t-trck-imp{
+    display:flex;
+    flex-direction:column;
+}
+.lst-t-trck-ord-pngrm,.lst-t-trck-ord-pnrm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* Button */
+.btn{
+    cursor:pointer;
+    padding:10px 15px;
+    width:max-content;
+    font-weight:bold;
+    border-radius:10rem;
+    outline:none;
+    border:0;
+}
+
+.btn-upc{
+    background-color: rgb(231, 155, 13);
+    color:white;
+}
+.btn-dlv{
+    background-color: rgb(13, 231, 49);
+    color:white;
+} 
+
+.btn-dly{
+    background-color: rgb(187, 13, 231);
+    color:white;
+}
+.crs-pntr{
+    cursor:pointer;
+}

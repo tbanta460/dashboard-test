@@ -1,0 +1,120 @@
+.ctn-sdbr{
+    background-color: rgb(23, 118, 207);
+    height:100vh;
+    position:fixed;
+    width:15rem;
+}
+.sdbr-logo{
+    width:100%;
+    margin:10 auto;
+}
+.sdbr-logo.w-max.mx-auto.mt-5 h1 {
+    color: white;
+    font-size: 25px;
+    width: max-content;
+    margin: 3rem auto;
+}
+.sdbr-menu{
+    margin:0 0 0 15px;
+}
+.sdbr-menu-nav{
+    display:flex;
+    flex-direction: column;
+}
+.sdbr-menu-nav-item{
+    align-items:center;
+    margin:20px 0;
+}
+
+.main-nav{
+    display:flex;
+    position: relative;
+    align-items:center;
+    cursor: pointer;
+    padding: 1rem 0.7rem 1rem 0.2rem;
+    border-radius: 15px;
+}
+
+.icon-nav{
+    margin: 0 2rem 0 0;
+    height:max-content;
+}
+.txt-nav{
+    color:white;
+    width:100%;
+    font-weight: bold;
+}
+.icn-rct{
+    width:300px;
+}
+.qck-lnk{
+    position:relative;
+    width:100%;
+    height:max-content;
+}
+
+.qck-items {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: -17rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: white;
+    width:max-content
+}
+.qck-items span {
+    font-size: 13px;
+    margin:0 7px;
+}
+.act-sdbr{
+    background-color: white;
+    color:black!important;
+    border-radius: 10px 0 0 10px;
+    position:relative;
+}
+.act-sdbr span, .act-sdbr .icn-sdbr{
+    color:black;
+    fill:black!important;
+}
+
+/* Sidebar Active */
+.sdbr-menu-nav-item b:nth-child(1){
+    position: absolute;
+    top:-20px;
+    height:20px;
+    width:200px;
+    background-color: white;
+    right:0;
+}
+.sdbr-menu-nav-item b:nth-child(1)::before{
+    content:"";
+    position: absolute;
+    top:0;
+    height:100%;
+    width:100%;
+    background-color: rgb(23, 118, 207);
+    border-radius: 0 0 20px 0;
+}
+.sdbr-menu-nav-item b:nth-child(2){
+    position: absolute;
+    bottom:-20px;
+    height:20px;
+    width:200px;
+    background-color: white;
+    right:0;
+}
+.sdbr-menu-nav-item b:nth-child(2)::before{
+    content:"";
+    position: absolute;
+    bottom:0;
+    height:100%;
+    width:100%;
+    background-color: rgb(23, 118, 207);
+    border-radius: 0 20px 0 0;
+}
+
+.hide{
+    display:none;
+}
